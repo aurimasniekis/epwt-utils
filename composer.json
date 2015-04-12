@@ -1,0 +1,27 @@
+{
+  "name": "epwt/utils",
+  "type": "symfony-bundle",
+  "description": "EPWT Common used utils",
+  "keywords": ["epwt", "utils"],
+  "homepage": "http://github.com/gcds",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aurimas Niekis",
+      "email": "aurimas.niekis@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "symfony/symfony": ">=2.2"
+  },
+  "autoload": {
+    "psr-4": { "EPWT\\UtilsBundle\\": "" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "minimum-stability": "dev"
+}
