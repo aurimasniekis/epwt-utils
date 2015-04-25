@@ -19,4 +19,4 @@ addons:
     repo_token: a655057018c5d94b8adb8a80f9b00d42ad6b5b6e8eb28fb21c80d793201e9903
 
 after_script:
-  - vendor/bin/test-reporter -coverage-report ./Tests/app/build/logs/clover.xml
+  - vendor/bin/test-reporter --coverage-report ./Tests/app/build/logs/clover.xml
