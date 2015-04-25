@@ -12,8 +12,13 @@
     }
   ],
   "require": {
-    "php": ">=5.3.2",
-    "symfony/symfony": ">=2.2"
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6"
+  },
+  "suggest": {
+    "ext-igbinary": "Faster and smaller serializer for SerializerTrait"
   },
   "autoload": {
     "psr-4": { "EPWT\\UtilsBundle\\": "" }
